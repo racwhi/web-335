@@ -1,0 +1,33 @@
+{
+  "customers": [
+    {
+      "_id": "C01",
+      "firstName": "John",
+      "lastName": "Smith",
+      "burgers": [
+        {
+          "_id": "B01",
+          "burgerName": " Cheeseburger",
+          "price": 10.49
+        },
+        {
+          "_id": "B02",
+          "burgerName": "Bacon Double Burger",
+          "price": 17.99
+        }
+      ]
+    },
+    {
+      "_id": "C02",
+      "firstName": "Sam",
+      "lastName": "Peters",
+      "burgers": [
+        {
+          "_id": "B03",
+          "burgerName": "Veggie Burger",
+          "price": 15.99
+        }
+      ]
+    }
+  ]
+}
