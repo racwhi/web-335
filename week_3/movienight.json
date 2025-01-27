@@ -1,0 +1,45 @@
+{
+  "viewers": [
+    {
+      "_id": "v01",
+      "firstName": "John",
+      "lastName": "Smith",
+      "ratings": [
+        {
+          "_id": "r01",
+          "ratingScore": 4.5,
+          "movieId": "m01"
+        },
+        {
+          "_id": "r02",
+          "ratingScore": 4.0,
+          "movieId": "m02"
+        }
+      ]
+    },
+    {
+      "_id": "v02",
+      "firstName": "Betty",
+      "lastName": "Kat",
+      "ratings": [
+        {
+          "_id": "r03",
+          "ratingScore": 5.0,
+          "movieId": "m01"
+        }
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "_id": "m01",
+      "movieName": "Jurassic Park",
+      "genre": "Sci-Fi"
+    },
+    {
+      "_id": "m02",
+      "movieName": "The Matrix",
+      "genre": "Action"
+    }
+  ]
+}
