@@ -1,0 +1,48 @@
+ {
+     "users": [
+    {
+      "_id": "u01",
+      "firstName": "Maple",
+      "lastName": "Tron",
+      "devices": [
+        {
+          "_id": "d01",
+          "deviceName": "iPhone",
+          "deviceType": "smartphone",
+          "charger": {
+            "_id": "c01",
+            "chargerType": "Lightning",
+            "voltage": 5
+          }
+        },
+        {
+          "_id": "d02",
+          "deviceName": "Samsung Galaxy",
+          "deviceType": "smartphone",
+          "charger": {
+            "_id": "c02",
+            "chargerType": "USB-C",
+            "voltage": 15
+          }
+        }
+      ]
+    },
+    {
+      "_id": "u02",
+      "firstName": "Jane",
+      "lastName": "Peachtree",
+      "devices": [
+        {
+          "_id": "d03",
+          "deviceName": "iPad",
+          "deviceType": "tablet",
+          "charger": {
+            "_id": "c01",
+            "chargerType": "Lightning",
+            "voltage": 5
+          }
+        }
+      ]
+    }
+  ]
+}
